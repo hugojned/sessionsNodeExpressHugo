@@ -1,3 +1,4 @@
+//#region Ejemplo2
 // const express = require('express'),
 //     app = express(),
 //     session = require('express-session'); //Middleware de sesión
@@ -39,7 +40,9 @@
 
 // app.listen(3000);
 // console.log("app running at http://localhost:3000");
+//#endregion
 
+//#region Ejemplo1
 var escapeHtml = require('escape-html')
 var express = require('express')
 var session = require('express-session')
@@ -114,3 +117,4 @@ app.get('/logout', function (req, res, next) {
 })
 
 app.listen(3000)
+//#endregion
